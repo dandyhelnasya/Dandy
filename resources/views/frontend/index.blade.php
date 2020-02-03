@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 <title>Dandy Studio - Jasa Desain Grafis</title>
-<link rel="icon" href="{{url('public/frontend/img/favicon1.png')}}" type="image/png">
-<link href="{{url('public/frontend/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
-<link href="{{url('public/frontend/css/style.css')}}" rel="stylesheet" type="text/css"> 
-<link href="{{url('public/frontend/css/font-awesome.css')}}" rel="stylesheet" type="text/css"> 
-<link href="{{url('public/frontend/css/animate.css')}}" rel="stylesheet" type="text/css">
+<link rel="icon" href="{{asset('frontend/img/favicon1.png')}}" type="image/png">
+<link href="{{asset('frontend/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('frontend/css/style.css')}}" rel="stylesheet" type="text/css"> 
+<link href="{{asset('frontend/css/font-awesome.css')}}" rel="stylesheet" type="text/css"> 
+<link href="{{asset('frontend/css/animate.css')}}" rel="stylesheet" type="text/css">
  
 </head>
 <body>
@@ -52,7 +52,7 @@
               <a href="#service" class="read_more2">Read more</a> </div>
           </div>
           <div class="col-lg-7 col-sm-5">
-			<img src="{{url('public/frontend/img/dandy-std.png')}}" class="zoomIn wow animated" width="600px" height="650px" alt="" />
+			<img src="{{asset('frontend/img/dandy-std.png')}}" class="zoomIn wow animated" width="600px" height="650px" alt="" />
 		  </div>
         </div>
       </div>
@@ -67,7 +67,7 @@
     <h2>About Us</h2>
     <div class="inner_section">
 	<div class="row">
-      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="{{url('public/frontend/img/ab2.jpg')}}" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="{{asset('frontend/img/ab2.jpg')}}" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
       	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
         	<div class=" delay-01s animated fadeInDown wow animated">
 			<h3>Dandy Studio</h3><br/> 
@@ -195,7 +195,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/motion1.jfif')}}"  alt="Portfolio 1"> </div>        
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/motion1.jfif')}}"  alt="Portfolio 1"> </div>        
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">Motion Grafis</h4>
@@ -206,7 +206,7 @@
       
       <!-- Portfolio Item-->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/motion2.jfif')}}" alt="Portfolio 1')}}"> </div>
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/motion2.jfif')}}" alt="Portfolio 1')}}"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">Motion Grafis</h4>
@@ -217,7 +217,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/ui1.png')}}" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/ui1.png')}}" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">User Interface</h4>
@@ -228,7 +228,7 @@
       
       <!-- Portfolio Item-->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/identitas.jfif')}}" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/identitas.jfif')}}" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">Identitas Visual</h4>
@@ -239,7 +239,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/cetak.jfif')}}" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/cetak.jfif')}}" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">Publikasi</h4>
@@ -250,7 +250,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/kemasan.jfif')}}" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/kemasan.jfif')}}" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">Desain Kemasan</h4>
@@ -261,7 +261,7 @@
       
       <!-- Portfolio Item  -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/ill.jfif')}}" alt="Portfolio 1"> </div>       
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/ill.jfif')}}" alt="Portfolio 1"> </div>       
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">Seni dan Ilustrasi</h4>
@@ -272,7 +272,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
-        <div class="portfolio_img"> <img src="{{url('public/frontend/img/ui2.png')}}" alt="Portfolio 1"> </div>       
+        <div class="portfolio_img"> <img src="{{asset('frontend/img/ui2.png')}}" alt="Portfolio 1"> </div>       
         <div class="item_overlay">
           <div class="item_info"> 
 				<h4 class="project_name">User Interface</h4>
@@ -305,10 +305,10 @@
 <div class="client_logos"><!--client_logos-->
   <div class="container">
     <ul class="fadeInRight animated wow">
-      <li><a href="javascript:void(0)"><img src="{{url('public/frontend/img/client_logo1.png')}}" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="{{url('public/frontend/img/client_logo2.png')}}" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="{{url('public/frontend/img/client_logo3.png')}}" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="{{url('public/frontend/img/client_logo5.png')}}" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="{{asset('frontend/img/client_logo1.png')}}" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="{{asset('frontend/img/client_logo2.png')}}" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="{{asset('frontend/img/client_logo3.png')}}" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="{{asset('frontend/img/client_logo5.png')}}" alt=""></a></li>
     </ul>
   </div>
 </div>
@@ -323,7 +323,7 @@
       <div class="team_area">
         <div class="team_box wow fadeInDown delay-03s">
           <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-          <img src="{{url('public/frontend/img/dandy.png')}}" alt="">
+          <img src="{{asset('frontend/img/dandy.png')}}" alt="">
           <ul>
             <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
             <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
@@ -338,7 +338,7 @@
       <div class="team_area">
         <div class="team_box  wow fadeInDown delay-06s">
           <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-          <img src="{{url('public/frontend/img/ajie.png')}}" alt="">
+          <img src="{{asset('frontend/img/ajie.png')}}" alt="">
           <ul>
             <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
             <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
@@ -353,7 +353,7 @@
       <div class="team_area">
         <div class="team_box wow fadeInDown delay-09s">
           <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-          <img src="{{url('public/frontend/img/sekjen.png')}}" alt="">
+          <img src="{{asset('frontend/img/sekjen.png')}}" alt="">
           <ul>
             <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
             <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
@@ -429,14 +429,14 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="{{url('public/frontend/js/jquery-1.11.0.min.js')}}"></script>
-<script type="text/javascript" src="{{url('public/frontend/js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{url('public/frontend/js/jquery-scrolltofixed.js')}}"></script>
-<script type="text/javascript" src="{{url('public/frontend/js/jquery.nav.js')}}"></script> 
-<script type="text/javascript" src="{{url('public/frontend/js/jquery.easing.1.3.js')}}"></script>
-<script type="text/javascript" src="{{url('public/frontend/js/jquery.isotope.js')}}"></script>
-<script type="text/javascript" src="{{url('public/frontend/js/wow.js')}}"></script> 
-<script type="text/javascript" src="{{url('public/frontend/js/custom.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery-1.11.0.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery-scrolltofixed.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery.nav.js')}}"></script> 
+<script type="text/javascript" src="{{asset('frontend/js/jquery.easing.1.3.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery.isotope.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/wow.js')}}"></script> 
+<script type="text/javascript" src="{{asset('frontend/js/custom.js')}}"></script>
 
 </body>
 </html>
